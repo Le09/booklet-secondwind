@@ -1,0 +1,71 @@
+\documentclass{article}
+
+\usepackage{eso-pic,graphicx}
+\usepackage[top=2cm, bottom=2cm, paperwidth=8in, paperheight=8in]{geometry}
+
+\tracinglostchars=2
+\usepackage[UTF8, fontset=none]{ctex} %Chinese
+
+%\setmainfont{URW Gothic L}[Scale=1.0]
+
+\setmainfont{TeX Gyre Adventor}[Scale=1.0]
+\setCJKmainfont{Noto Sans CJK JP}[Scale=1.0]
+
+
+\renewcommand{\abstractname}{Florandle EP}
+%\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+
+
+\usepackage[version=4]{mhchem} %chemical
+
+\usepackage{verse}
+\pagenumbering{gobble}
+\setlength\parindent{0pt}
+
+\usepackage{hyperref} %hyperlinks
+
+\usepackage{tikz} %transparent background
+\usetikzlibrary{calc}
+\usepackage{graphicx}
+
+\definecolor{darkcyan}{rgb}{0.07, 0.26, 0.26}
+\definecolor{darksienna}{rgb}{0.24, 0.08, 0.08}
+	
+
+% Macros
+
+\newcommand{\bo}[1] {
+  \textbf{#1}}
+
+\newcommand{\bblu}[1] {
+  \textbf{\textcolor{darkcyan}{#1}}}
+  
+\newcommand{\bbro}[1] {\textbf{\textcolor{darksienna}{#1}}}
+
+%Korean spaces
+\newcommand{\ks}{\hspace{.5pt}}
+
+\newcommand{\bckg}[1]{\AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{#1}}}
+
+\urlstyle{same}
+
+\begin{document}
+
+%% title page
+\phantom{;}
+\bckg{assets/cover}
+
+\clearpage
+
+%\input{input/intro}
+%\input{Input/light}
+\input{input/torment}
+\input{input/meta}
+
+\clearpage
+\phantom{;}
+\bckg{assets/end}
+
+\end{document}
+
