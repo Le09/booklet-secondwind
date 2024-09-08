@@ -4,15 +4,17 @@
 \usepackage[top=2cm, bottom=2cm, paperwidth=8in, paperheight=8in]{geometry}
 
 \tracinglostchars=2
-\usepackage[UTF8, fontset=none]{ctex} %Chinese
+%\usepackage[UTF8, fontset=none]{ctex} %Chinese
 
 %\setmainfont{URW Gothic L}[Scale=1.0]
 
-\setmainfont{TeX Gyre Adventor}[Scale=1.0]
-\setCJKmainfont{Noto Sans CJK JP}[Scale=1.0]
+%\setmainfont{TeX Gyre Adventor}[Scale=1.0]
+\usepackage{fontspec}
+\setmainfont{QTCaligulatype}
+%\setCJKmainfont{Noto Sans CJK JP}[Scale=1.0]
 
 
-\renewcommand{\abstractname}{Florandle EP}
+\renewcommand{\abstractname}{Second Wind}
 %\usepackage[T1]{fontenc}
 \usepackage{xcolor}
 
@@ -58,14 +60,16 @@
 
 \clearpage
 
-%\input{input/intro}
 \input{input/light}
-\input{input/torment}
 \input{input/meta}
+\input{input/simplify}
+\input{input/torment}
+\input{input/rebirth}
+\input{input/out}
 
-\clearpage
-\phantom{;}
-\bckg{assets/end}
+% \clearpage
+% \phantom{;}
+% \bckg{assets/end}
 
 \end{document}
 
