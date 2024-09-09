@@ -1,2 +1,4 @@
-# booklet-second-album
-Latex source for Cosmoose's second album booklet
+# Second Wind Booklet
+
+This is a booklet for the Second Wind project.
+This EP is a collaboration between RandleMan, Flora Lin, and Woolion.
